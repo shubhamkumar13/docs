@@ -1,0 +1,4 @@
+- cell's make set get can be replaced by atomic's make set get
+- unbounded channels can be helpful in replacing worker queues
+- setting up a task pool can be very helpful since spawning and 
+- since we have a task library in domainslib now making a promise can be easily done
