@@ -1,5 +1,5 @@
 # TL;DR
-- cell's make set get can be replaced by atomic's make set get
+- `CELL`'s `make`,`set` and `get` can be replaced by atomic's make,set and get
 - unbounded channels can be helpful in replacing worker queues
 - setting up a task pool can be very helpful since spawning and joining should be controlled by main thread and not the detached function since it's a costly process.
   Previously `detach` function kept a track of spawning threads and closing them, internally.
